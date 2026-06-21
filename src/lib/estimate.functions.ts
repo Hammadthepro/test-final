@@ -68,7 +68,7 @@ export const generateEstimate = createServerFn({ method: "POST" })
         "Authorization": `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "llama3-8b-8192",
+        model: "llama3-70b-8192",
         temperature: 0.3,
         response_format: { type: "json_object" },
         messages: [
