@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cost-convo-ai",
+  "name": "test-final",
   "compatibility_date": "2026-06-21",
   "compatibility_flags": ["nodejs_compat"],
   "main": ".output/server/index.mjs",
